@@ -1,0 +1,19 @@
+Package: quotr
+Type: Package
+Title: Download Quotes from the Internet
+Version: 0.0.9000
+Authors@R: person("First", "Last", email = "chris.beeley@example.com",
+                  role = c("aut", "cre"))
+Maintainer: Chris Beeley <chris.beeley@gmail.com>
+Description: This package is a wrapper for interacting with the 
+    They Said So quotation API
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    RCurl,
+    httr,
+    jsonlite
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat
